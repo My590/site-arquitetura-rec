@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f6f2eb; color: #1b1b1b; }
+a { text-decoration: none; color: inherit; }
+.header { min-height: 76px; display: flex; align-items: center; gap: 28px; padding: 14px 7%; background: #101820; color: #fff; }
+.logo { font-weight: 800; letter-spacing: 1px; margin-right: auto; }
+nav { display: flex; gap: 20px; }
+nav a { padding: 8px 0; color: #ddd; }
+nav a.active { color: #e8b85b; border-bottom: 2px solid #e8b85b; }
+.btn { display: inline-block; border: 0; border-radius: 6px; padding: 13px 20px; background: #e8b85b; color: #111; font-weight: 700; cursor: pointer; }
+.btn-small { padding: 9px 13px; font-size: .9rem; }
+.hero { min-height: 440px; padding: 80px 7%; display: flex; align-items: center; background: linear-gradient(90deg, rgba(16,24,32,.97), rgba(16,24,32,.6), rgba(16,24,32,.25)), url('/banner.jpg') center/cover; color: white; }
+.hero h1 { font-size: clamp(2.5rem, 6vw, 4.8rem); margin: 10px 0; }
+.hero p { max-width: 520px; font-size: 1.1rem; line-height: 1.6; }
+.eyebrow { color: #e8b85b; font-weight: 700; letter-spacing: 2px; }
+.section { max-width: 1200px; margin: auto; padding: 55px 7%; }
+.section h1, .section h2 { margin-top: 0; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 22px; margin-top: 25px; }
+.service-card { overflow: hidden; background: #fff; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,.08); }
+.service-card img { width: 100%; height: 170px; object-fit: cover; }
+.card-content { padding: 18px; }
+.card-content p { color: #666; min-height: 40px; }
+.card-content strong { display: block; margin: 10px 0 15px; font-size: 1.15rem; }
+.page { min-height: 65vh; }
+.form-page { display: flex; justify-content: center; }
+.form-box { width: min(520px, 100%); background: white; padding: 30px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,.08); }
+form { display: grid; gap: 16px; }
+label { display: grid; gap: 7px; font-weight: 700; }
+input, select { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 35px; align-items: center; }
+.map-placeholder { min-height: 250px; display: grid; place-items: center; background: #ddd; border-radius: 10px; text-align: center; }
+.footer { padding: 25px 7%; background: #101820; color: #ddd; text-align: center; }
+@media (max-width: 760px) { .header { flex-wrap: wrap; } nav { order: 3; width: 100%; justify-content: center; flex-wrap: wrap; } .contact { grid-template-columns: 1fr; } }
