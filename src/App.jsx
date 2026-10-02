@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Servicos from './pages/Servicos';
-import Agendamento from './pages/Agendamento';
+import Sobre from './pages/Sobre';
+import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/servicos" element={<Servicos />} />
-          <Route path="/agendamento" element={<Agendamento />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/projetos" element={<Projetos />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
