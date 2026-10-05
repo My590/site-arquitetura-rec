@@ -197,7 +197,6 @@ const Styles = {
 function Home() {
   return (
     <main>
-      {/* HERO */}
       <section style={Styles.hero}>
         <div style={Styles.heroText}>
           <h1 style={Styles.titleLight}>Projetos</h1>
@@ -218,7 +217,6 @@ function Home() {
         </div>
       </section>
 
-      {/* ABOUT */}
       <section style={Styles.about}>
         <div style={Styles.aboutLeft}>
           <img src={img3} alt="" style={Styles.imgTall} />

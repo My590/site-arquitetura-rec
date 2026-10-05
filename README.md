@@ -1,16 +1,26 @@
-# React + Vite
+# Website de Arquitetura
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Integrantes
 
-Currently, two official plugins are available:
+- Letícia Pires de Almeida
+- Milena de Bastos Miranda
+- Rihana Ferreira Soares
+- Sophia Felix dos Santos Lima
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descrição do projeto
 
-## React Compiler
+Este projeto consiste na recriação de um website de arquitetura apresentado em um protótipo do Figma, utilizando React, Vite e React Router.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo é desenvolver uma interface para um escritório de arquitetura, apresentando seus projetos, informações sobre o escritório e formas de contato.
 
-## Expanding the Oxlint configuration
+O projeto busca reproduzir a estrutura visual do protótipo, utilizando componentes React, navegação entre páginas e uma rota dinâmica para permitir o acesso aos detalhes de diferentes projetos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologias utilizadas
+
+- React
+- Vite
+- React Router DOM
+- JavaScript
+- HTML
+- CSS
+

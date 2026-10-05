@@ -87,7 +87,6 @@ const Styles = {
     border: 0,
     display: 'block',
   },
-    /* ---------- FORMULÁRIO ---------- */
   formSection: {
     fontFamily: "'Roboto', sans-serif",
     display: 'grid',
@@ -227,7 +226,6 @@ function Contato() {
         </div>
       </section>
 
-      {/* FORMULÁRIO */}
       <section style={Styles.formSection}>
         <div style={Styles.formColumn}>
           <h2 style={Styles.formTitle}>Envie uma mensagem</h2>
