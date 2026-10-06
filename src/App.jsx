@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Galeria from './pages/Galeria';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Projeto1 from './pages/Projeto1';
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/galeria" element={<Galeria />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/projetos" element={<Projetos />} />
           <Route path="/projetos/1" element={<Projeto1 />} />

@@ -44,6 +44,10 @@ function Header() {
           Home
         </NavLink>
 
+        <NavLink to="/galeria" style={Styles.navLink}>
+          Galeria
+        </NavLink>
+
         <NavLink to="/sobre" style={Styles.navLink}>
           Sobre
         </NavLink>

@@ -92,16 +92,15 @@ function Footer() {
   return (
     <footer style={Styles.footer}>
       <div style={Styles.container}>
-        {/* Logo */}
         <div>
           <img src={logo} alt="Digital Project" style={Styles.logo} />
         </div>
 
-        {/* Information */}
         <div>
           <h4 style={Styles.title}>Informações</h4>
           <ul style={Styles.list}>
             <li><Link to="/" style={Styles.link}>Home</Link></li>
+            <li><Link to="/galeria" style={Styles.link}>Galeria</Link></li>
             <li><Link to="/projetos" style={Styles.link}>Projetos</Link></li>
             <li><Link to="/sobre" style={Styles.link}>Sobre</Link></li>
             <li><Link to="/contato" style={Styles.link}>Contatos</Link></li>
