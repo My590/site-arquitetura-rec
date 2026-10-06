@@ -188,13 +188,13 @@ function Sobre() {
         <div style={Styles.aboutLeft}>
           <img
             src={img3}
-            alt="Projeto arquitetônico"
+            alt="Architectural project"
             style={Styles.imgTall}
           />
 
           <img
             src={img4}
-            alt="Detalhe arquitetônico"
+            alt="Architectural detail"
             style={Styles.imgSmall}
           />
         </div>
@@ -202,31 +202,31 @@ function Sobre() {
         <div style={Styles.aboutMiddle}>
           <img
             src={img2}
-            alt="Arquitetura contemporânea"
+            alt="Contemporary architecture"
             style={Styles.imgMiddle}
           />
         </div>
 
         <div style={Styles.aboutInfo}>
           <h1 style={Styles.aboutTitleLight}>
-            Sobre
+            About
           </h1>
 
           <h2 style={Styles.aboutTitleBold}>
-            Nós
+            Us
           </h2>
 
           <p style={Styles.aboutText}>
-            Somos um escritório de arquitetura dedicado à criação de espaços
-            que unem estética, funcionalidade e identidade. Desenvolvemos
-            projetos pensando na relação entre as pessoas, os ambientes e
-            suas necessidades.
+            We are an architecture firm dedicated to creating spaces that
+            combine aesthetics, functionality and identity. We develop
+            projects with a focus on the relationship between people, their
+            environments and their needs.
           </p>
 
           <p style={{ ...Styles.aboutText, marginTop: '20px' }}>
-            Acreditamos que cada projeto possui uma história própria. Por isso,
-            buscamos soluções arquitetônicas que valorizem o contexto, os
-            detalhes e a experiência de quem utiliza cada espaço.
+            We believe every project has a story of its own. That is why we
+            seek architectural solutions that value context, details and the
+            experience of those who use each space.
           </p>
         </div>
 
@@ -235,7 +235,7 @@ function Sobre() {
       <section style={Styles.mission}>
 
         <h2 style={Styles.missionTitle}>
-          Foco principal / Missão
+          Main Focus / Mission
         </h2>
 
         <div style={Styles.missionGrid}>
@@ -245,14 +245,13 @@ function Sobre() {
 
             <div style={Styles.missionContent}>
               <h3 style={Styles.missionItemTitle}>
-                Arquitetura com propósito
+                Architecture with purpose
               </h3>
 
               <p style={Styles.missionText}>
-                Criar espaços que sejam visualmente marcantes, funcionais e
-                capazes de atender às necessidades de seus usuários. Cada
-                decisão de projeto busca equilibrar beleza, conforto e
-                praticidade.
+                Creating spaces that are visually striking, functional and
+                able to meet the needs of their users. Every design decision
+                seeks to balance beauty, comfort and practicality.
               </p>
             </div>
           </div>
@@ -262,13 +261,13 @@ function Sobre() {
 
             <div style={Styles.missionContent}>
               <h3 style={Styles.missionItemTitle}>
-                Inovação e qualidade
+                Innovation and quality
               </h3>
 
               <p style={Styles.missionText}>
-                Buscar novas possibilidades para a arquitetura, utilizando
-                soluções criativas e materiais adequados para desenvolver
-                projetos duradouros, eficientes e conectados ao seu contexto.
+                Seeking new possibilities for architecture, using creative
+                solutions and suitable materials to develop lasting,
+                efficient projects connected to their context.
               </p>
             </div>
           </div>
@@ -282,21 +281,20 @@ function Sobre() {
         <div style={Styles.finalContent}>
 
           <h2 style={Styles.finalTitle}>
-            Espaços que
+            Spaces that
             <br />
-            fazem sentido.
+            make sense.
           </h2>
 
           <div>
             <p style={Styles.finalText}>
-              Nosso objetivo é transformar ideias em ambientes que tenham
-              significado. Trabalhamos para que cada projeto tenha sua própria
-              identidade e, ao mesmo tempo, proporcione uma experiência
-              agradável para quem o utiliza.
+              Our goal is to turn ideas into environments that carry meaning.
+              We work so that each project has its own identity while also
+              providing a pleasant experience for those who use it.
             </p>
 
             <Link to="/projetos" style={Styles.backButton}>
-              Conheça nossos projetos →
+              Discover our projects →
             </Link>
           </div>
 

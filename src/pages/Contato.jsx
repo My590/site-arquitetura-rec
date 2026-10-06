@@ -203,111 +203,30 @@ function Contato() {
   }
 
   return (
-    <main>
-      <section style={Styles.page}>
-        <div style={Styles.info}>
-          <h1 style={Styles.titleLight}>Informações de</h1>
-          <h2 style={Styles.titleBold}>Contato</h2>
 
-          <p style={Styles.companyName}>Nome da Companhia</p>
-          <p style={Styles.address}> Rua dos Sonhos, 13 - 4° andar</p>
-          <p style={Styles.phone}> 00-xxxx-xxxx</p>
-          <p style={Styles.email}>email@gmail.com</p>
+  <main>
+    <section style={Styles.page}>
+      <div style={Styles.info}>
+        <h1 style={Styles.titleLight}>Contact</h1>
+        <h2 style={Styles.titleBold}>Information</h2>
 
-        </div>
+        <p style={Styles.companyName}>Company Name</p>
+        <p style={Styles.address}>13 Dream Street, 4th floor</p>
+        <p style={Styles.phone}>00-xxxx-xxxx</p>
+        <p style={Styles.email}>email@gmail.com</p>
+      </div>
 
-        <div style={Styles.mapWrapper}>
-          <iframe
-            title="Mapa"
-            src="https://www.google.com/maps?q=Austin,+Texas&output=embed"
-            style={Styles.map}
-            loading="lazy"
-          />
-        </div>
-      </section>
-
-      <section style={Styles.formSection}>
-        <div style={Styles.formColumn}>
-          <h2 style={Styles.formTitle}>Envie uma mensagem</h2>
-
-          <form style={Styles.form} onSubmit={handleSubmit}>
-            <label style={Styles.field}>
-              <span style={Styles.label}>
-                Nome<span style={Styles.required}>*</span>
-              </span>
-              <input
-                style={Styles.input}
-                type="text"
-                name="name"
-                value={form.name}
-                onChange={handleChange}
-              />
-            </label>
-
-            <label style={Styles.field}>
-              <span style={Styles.label}>
-                Número do Telefone<span style={Styles.required}>*</span>
-              </span>
-              <input
-                style={Styles.input}
-                type="tel"
-                name="phone"
-                value={form.phone}
-                onChange={handleChange}
-                required
-              />
-            </label>
-
-            <label style={Styles.field}>
-              <span style={Styles.label}>
-                E-mail<span style={Styles.required}>*</span>
-              </span>
-              <input
-                style={Styles.input}
-                type="email"
-                name="email"
-                value={form.email}
-                onChange={handleChange}
-                required
-              />
-            </label>
-
-            <label style={Styles.field}>
-              <span style={Styles.label}>Interessado em</span>
-              <input
-                style={Styles.input}
-                type="text"
-                name="interest"
-                value={form.interest}
-                onChange={handleChange}
-              />
-            </label>
-
-            <label style={Styles.field}>
-              <span style={Styles.label}>
-                mensagem<span style={Styles.required}>*</span>
-              </span>
-              <textarea
-                style={Styles.textarea}
-                name="message"
-                value={form.message}
-                onChange={handleChange}
-                required
-              />
-            </label>
-
-            <button type="submit" style={Styles.sendButton}>
-              Envie um e-mail →
-            </button>
-          </form>
-        </div>
-
-        <div style={Styles.photoWrapper}>
-          <img src={fotoContato} alt="Contato" style={Styles.photo} />
-        </div>
-      </section>
-    </main>
-  );
+      <div style={Styles.mapWrapper}>
+        <iframe
+          title="Map"
+          src="https://www.google.com/maps?q=Austin,+Texas&output=embed"
+          style={Styles.map}
+          loading="lazy"
+        />
+      </div>
+    </section>
+  </main>
+);
 }
 
 export default Contato;

@@ -97,24 +97,24 @@ function Footer() {
         </div>
 
         <div>
-          <h4 style={Styles.title}>Informações</h4>
+          <h4 style={Styles.title}>Information</h4>
           <ul style={Styles.list}>
             <li><Link to="/" style={Styles.link}>Home</Link></li>
-            <li><Link to="/galeria" style={Styles.link}>Galeria</Link></li>
-            <li><Link to="/projetos" style={Styles.link}>Projetos</Link></li>
-            <li><Link to="/sobre" style={Styles.link}>Sobre</Link></li>
-            <li><Link to="/contato" style={Styles.link}>Contatos</Link></li>
+            <li><Link to="/galeria" style={Styles.link}>Gallery</Link></li>
+            <li><Link to="/projetos" style={Styles.link}>Projects</Link></li>
+            <li><Link to="/sobre" style={Styles.link}>About</Link></li>
+            <li><Link to="/contato" style={Styles.link}>Contact</Link></li>
           </ul>
         </div>
 
         <div>
-          <h4 style={Styles.title}>Contatos</h4>
+          <h4 style={Styles.title}>Contact</h4>
           <div style={Styles.contactList}>
             <div style={Styles.contactItem}>
               <span style={Styles.icon}>📍</span>
               <span>
-                Rua dos Sonhos<br />
-                13 - 4º andar<br />
+                Dream Street<br />
+                13 - 4th floor<br />
               </span>
             </div>
 
@@ -131,7 +131,7 @@ function Footer() {
         </div>
 
         <div>
-          <h4 style={Styles.title}>Redes Sociais</h4>
+          <h4 style={Styles.title}>Social Media</h4>
           <div style={Styles.social}>
             <a href="#" style={Styles.socialLink}>f</a>
             <a href="#" style={Styles.socialLink}>t</a>
@@ -141,7 +141,7 @@ function Footer() {
         </div>
       </div>
 
-      <div style={Styles.bottom}>© 2026 Todos os direitos reservados</div>
+      <div style={Styles.bottom}>© 2026 All rights reserved</div>
     </footer>
   );
 }
