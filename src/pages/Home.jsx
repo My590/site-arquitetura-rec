@@ -204,10 +204,8 @@ function Home() {
 
           <div style={Styles.arrows}>
             <p style={Styles.aboutText}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
-          </p>
+              Toda arquitetura começa por uma ideia, mas ganha significado quando encontra seu contexto. Criamos projetos que partem da essência de cada espaço para transformar necessidades em experiências, unindo identidade, funcionalidade e expressão.
+            </p>
           </div>
         </div>
 
@@ -230,9 +228,7 @@ function Home() {
         <div>
           <h2 style={Styles.aboutTitle}> Foco principal</h2>
           <p style={Styles.aboutText}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            Criar espaços que façam sentido para quem os vive. Nosso olhar está voltado para a relação entre arquitetura, pessoas e contexto, buscando soluções que tragam equilíbrio entre estética, conforto e funcionalidade.
           </p>
           <a href="/sobre" style={Styles.readMore}>Ler mais →</a>
         </div>
