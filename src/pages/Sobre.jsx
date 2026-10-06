@@ -184,7 +184,6 @@ function Sobre() {
     <main style={Styles.page}>
 
       <section style={Styles.about}>
-
         <div style={Styles.aboutLeft}>
           <img
             src={img3}
@@ -229,11 +228,9 @@ function Sobre() {
             experience of those who use each space.
           </p>
         </div>
-
       </section>
 
       <section style={Styles.mission}>
-
         <h2 style={Styles.missionTitle}>
           Main Focus / Mission
         </h2>
@@ -271,15 +268,11 @@ function Sobre() {
               </p>
             </div>
           </div>
-
         </div>
-
       </section>
 
       <section style={Styles.finalSection}>
-
         <div style={Styles.finalContent}>
-
           <h2 style={Styles.finalTitle}>
             Spaces that
             <br />
@@ -299,9 +292,7 @@ function Sobre() {
           </div>
 
         </div>
-
       </section>
-
     </main>
   );
 }

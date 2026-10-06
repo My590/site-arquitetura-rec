@@ -71,40 +71,6 @@ const Styles = {
     objectFit: 'cover',
     display: 'block',
   },
-
-  currentPage: {
-    fontSize: '17px',
-    lineHeight: '1',
-    color: '#333',
-    fontWeight: '400',
-  },
-
-  slash: {
-    fontSize: '25px',
-    color: '#d6d6d6',
-    fontWeight: '300',
-    transform: 'rotate(-25deg)',
-  },
-
-  totalPages: {
-    fontSize: '17px',
-    color: '#d6d6d6',
-    fontWeight: '400',
-  },
-
-  arrow: {
-    width: '42px',
-    height: '42px',
-    border: '1px solid #eeeeee',
-    background: '#fff',
-    color: '#777',
-    fontSize: '18px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    cursor: 'pointer',
-    marginLeft: '2px',
-  },
 };
 
 function Gallery() {
